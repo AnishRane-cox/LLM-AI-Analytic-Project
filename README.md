@@ -45,13 +45,11 @@ pip install -U kaggle kagglehub pyngrok xgboost statsmodels mlxtend
 
 1. **Obtain Required Keys:**
    - OpenAI API Key
-   - NGROK Token (if using Streamlit sharing from Colab)
    - Kaggle API Key (`kaggle.json`)
 
 2. **Environment Setup:**
 ```bash
 export OPENAI_API_KEY=your_openai_key
-export NGROK_AUTHTOKEN=your_ngrok_token
 export KAGGLE_USERNAME=your_kaggle_username
 export KAGGLE_KEY=your_kaggle_key
 ```
@@ -120,6 +118,6 @@ Update the script to support Streamlit input/output rendering.
 
 ## 📎 License
 
-MIT License © 2025 — Nilesh Ramesh Rane
+MIT License © 2025 — Anish Nilesh Rane
 
 ---
